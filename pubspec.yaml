@@ -1,0 +1,14 @@
+name: droxy2
+description: droxy2 is a websocket and web server using alfred.
+version: 1.0.0
+homepage: https://github.com/ilshookim/droxy2
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  # A performant, expressjs like server framework thats easy to use and has all the bits in one place.
+  alfred: ^0.1.4+5
+
+dev_dependencies:
+  pedantic: ^1.10.0
